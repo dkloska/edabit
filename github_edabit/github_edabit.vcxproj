@@ -154,6 +154,7 @@
     <ClCompile Include="7_CorrectMistakes.cpp" />
     <ClCompile Include="8_HowManySeconds.cpp" />
     <ClCompile Include="9_MinutesToSeconds.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0_ReturnTrue.h" />

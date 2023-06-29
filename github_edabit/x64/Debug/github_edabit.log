@@ -1,11 +1,10 @@
-﻿  1_Addition.cpp
-  2_ReturnIncremented.cpp
-  3_Remainder.cpp
-  4_Reverse.cpp
-  5_FarmProblem.cpp
-  6_triArea.cpp
-  7_CorrectMistakes.cpp
-  8_HowManySeconds.cpp
+﻿  10_IsEqual.cpp
+  11_HoursAndMinutes.cpp
+  12_RecPerimeter.cpp
+  13_PowerCalc.cpp
+  14_UnitConverter.cpp
+  1_Addition.cpp
+  9_MinutesToSeconds.cpp
+  Main.cpp
+C:\Users\Dominika\Documents\GitHub\edabit\github_edabit\Main.cpp(6,8): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
   Generowanie kodu...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\Dominika\Documents\GitHub\edabit\x64\Debug\github_edabit.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
