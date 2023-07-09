@@ -8,5 +8,5 @@ int main() {
 	int num2 = 3;
 	Addition test = Addition(num1, num2);
 	test.display();
-	//cout << test.addition(num1, num2) << endl;
+	cout << test.addition(num1, num2) << endl;
 }

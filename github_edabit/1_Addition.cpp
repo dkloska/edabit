@@ -2,7 +2,16 @@
 #include "1_Addition.h"
 #include <iostream>
 
+Addition::Addition(int add1_k, int add2_k) {
+	add1 = add1_k;
+	add2 = add2_k;
+}
 
-int addition(int a, int b) {
-	return a + b;
+void Addition::display() {
+	cout << add1 << endl;
+	cout << add2 << endl;
+}
+
+int Addition::addition(int num1, int num2) {
+	return num1 + num2;
 }

@@ -2,6 +2,10 @@
 #include "2_ReturnIncremented.h"
 #include <iostream>
 
-int returnIncremented(int a) {
+ReturnIncremented::ReturnIncremented(int number_k) {
+	number = number_k;
+}
+
+int ReturnIncremented::returnIncremented(int a) {
 	return ++a;
 }
