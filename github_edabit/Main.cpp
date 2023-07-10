@@ -1,12 +1,11 @@
 #include <iostream>
-#include "1_Addition.h"
+#include "3_Remainder.h"
 
 using namespace std;
 
 int main() {
-	int num1 = 1;
-	int num2 = 3;
-	Addition test = Addition(num1, num2);
-	test.display();
-	cout << test.addition(num1, num2) << endl;
+	int num1 = 10;
+	int num2 = 4;
+	Remainder test = Remainder(num1, num2);
+	cout << test.remainder(num1, num2) << endl;
 }

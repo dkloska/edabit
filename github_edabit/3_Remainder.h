@@ -2,6 +2,12 @@
 #pragma once
 
 class Remainder {
+
+private:
+	int divider;
+	int divisor;
+
 public:
-	int remainder(int a, int b) {};
+	Remainder(int divider_k, int divisor_k);
+	int remainder(int a, int b);
 };
