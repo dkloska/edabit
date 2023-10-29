@@ -1,11 +1,13 @@
-#include <iostream>
-#include "3_Remainder.h"
+#include "14_UnitConverter.h"
+#include <benchmark/benchmark.h>
 
-using namespace std;
-
-int main() {
-	int num1 = 10;
-	int num2 = 4;
-	Remainder test = Remainder(num1, num2);
-	cout << test.remainder(num1, num2) << endl;
+static void BM_InchesToFeet(benchmark::State& state) {
+    UnitConverter unitConverter;
+    for (auto _ : state) {
+        unitConverter.inchesToFeet(100); // WprowadŸ tutaj odpowiedni¹ wartoœæ do pomiaru
+    }
 }
+
+BENCHMARK(BM_InchesToFeet);
+
+BENCHMARK_MAIN();

@@ -2,5 +2,6 @@
 #pragma once
 
 class UnitConverter {
-	int inchesToFeet(int inches) {};
+public:
+	int inchesToFeet(int inches);
 };
