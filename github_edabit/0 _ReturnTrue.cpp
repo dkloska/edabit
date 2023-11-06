@@ -1,6 +1,6 @@
 #include "0_ReturnTrue.h"
 #include <iostream>
 
-bool ReturnTrue::returnTure() {
+bool ReturnTrue::returnTrue() {
 	return true;
 }
