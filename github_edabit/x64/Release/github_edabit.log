@@ -1,21 +1,5 @@
-﻿  0 _ReturnTrue.cpp
-  10_IsEqual.cpp
-  11_HoursAndMinutes.cpp
-  12_RecPerimeter.cpp
-  13_PowerCalc.cpp
-  14_UnitConverter.cpp
-  1_Addition.cpp
-  2_ReturnIncremented.cpp
-  3_Remainder.cpp
-  4_Reverse.cpp
-  5_FarmProblem.cpp
-  6_triArea.cpp
-  7_CorrectMistakes.cpp
-  8_HowManySeconds.cpp
-  9_MinutesToSeconds.cpp
-  Main.cpp
-  Trwa generowanie kodu
-  Previous IPDB not found, fall back to full compilation.
+﻿  Trwa generowanie kodu
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
   All 17 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Zakończono generowanie kodu
 benchmark.lib(benchmark_register.cc.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „benchmark.lib(benchmark_register.cc.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
@@ -36,4 +20,4 @@ benchmark.lib(sleep.cc.obj) : warning LNK4099: nie znaleziono pliku PDB „” z
 benchmark.lib(complexity.cc.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „benchmark.lib(complexity.cc.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
 benchmark.lib(counter.cc.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „benchmark.lib(counter.cc.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
 benchmark.lib(benchmark_api_internal.cc.obj) : warning LNK4099: nie znaleziono pliku PDB „” z elementem „benchmark.lib(benchmark_api_internal.cc.obj)” lub w pozycji „”; obiekt zostanie skonsolidowany bez informacji debugowania
-  github_edabit.vcxproj -> C:\Users\Lenovo\Documents\GitHub\edabitDK\x64\Release\github_edabit.exe
+  github_edabit.vcxproj -> C:\Users\Lenovo\source\repos\edabit\x64\Release\github_edabit.exe

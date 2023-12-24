@@ -155,6 +155,7 @@
     <ClCompile Include="8_HowManySeconds.cpp" />
     <ClCompile Include="9_MinutesToSeconds.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="15_maxEdgeOfTriangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0_ReturnTrue.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="7_CorrectMistakes.h" />
     <ClInclude Include="8_HowManySeconds.h" />
     <ClInclude Include="9_MinutesToSeconds.h" />
+    <ClInclude Include="15_maxEdgeOfTriangle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

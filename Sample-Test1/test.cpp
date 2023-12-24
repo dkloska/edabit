@@ -14,6 +14,7 @@
 #include "..\github_edabit\12_RecPerimeter.cpp"
 #include "..\github_edabit\13_PowerCalc.cpp"
 #include "..\github_edabit\14_UnitConverter.cpp"
+#include"..\github_edabit\15_maxEdgeOfTriangle.cpp"
 TEST(Test0, TestReturnTrue) {
     ReturnTrue rt;
     EXPECT_TRUE(rt.returnTrue());
@@ -124,4 +125,13 @@ TEST(test14, inchesToFeet) {
     EXPECT_EQ(27, unitConverter.inchesToFeet(324));
     EXPECT_EQ(251, unitConverter.inchesToFeet(3012));
     EXPECT_EQ(0, unitConverter.inchesToFeet(11));
+}
+
+TEST(test15, nextEdge) {
+    maxEdgeOfTriangle edge3;
+    EXPECT_EQ(8, edge3.nextEdge(5, 4));
+    EXPECT_EQ(10, edge3.nextEdge(8, 3));
+    EXPECT_EQ(15, edge3.nextEdge(7, 9));
+    EXPECT_EQ(13, edge3.nextEdge(10, 4));
+    EXPECT_EQ(8, edge3.nextEdge(7, 2));
 }
