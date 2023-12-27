@@ -16,6 +16,7 @@
 #include "..\github_edabit\14_UnitConverter.cpp"
 #include"..\github_edabit\15_maxEdgeOfTriangle.cpp"
 #include"..\github_edabit\16_IsSame.cpp"
+#include"..\github_edabit\17_CheckSum.cpp"
 
 TEST(Test0, TestReturnTrue) {
 	ReturnTrue rt;
@@ -146,3 +147,29 @@ TEST(test16, isSameNum) {
 	EXPECT_EQ(false, number1.isSameNum(35, 36));
 	EXPECT_EQ(false, number1.isSameNum(7, 2));
 }
+
+TEST(test17, lessThan100) {
+	CheckSum number1;
+	EXPECT_EQ(true, number1.lessThan100(5, 57));
+	EXPECT_EQ(false, number1.lessThan100(77, 30));
+	EXPECT_EQ(true, number1.lessThan100(0, 59));
+	EXPECT_EQ(false, number1.lessThan100(78, 35));
+	EXPECT_EQ(true, number1.lessThan100(63, 11));
+	EXPECT_EQ(false, number1.lessThan100(37, 99));
+	EXPECT_EQ(true, number1.lessThan100(52, 11));
+	EXPECT_EQ(false, number1.lessThan100(82, 95));
+	EXPECT_EQ(true, number1.lessThan100(17, 44));
+	EXPECT_EQ(false, number1.lessThan100(74, 53));
+	EXPECT_EQ(true, number1.lessThan100(3, 77));
+	EXPECT_EQ(false, number1.lessThan100(25, 80));
+	EXPECT_EQ(true, number1.lessThan100(59, 28));
+	EXPECT_EQ(false, number1.lessThan100(69, 87));
+	EXPECT_EQ(true, number1.lessThan100(10, 45));
+	EXPECT_EQ(false, number1.lessThan100(43, 58));
+	EXPECT_EQ(true, number1.lessThan100(50, 44));
+	EXPECT_EQ(false, number1.lessThan100(74, 89));
+	EXPECT_EQ(true, number1.lessThan100(3, 27));
+	EXPECT_EQ(false, number1.lessThan100(21, 79));
+	EXPECT_EQ(true, number1.lessThan100(21, 37));
+}
+
