@@ -158,6 +158,7 @@
     <ClCompile Include="17_CheckSum.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="15_maxEdgeOfTriangle.cpp" />
+    <ClCompile Include="18_Polygon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0_ReturnTrue.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="9_MinutesToSeconds.h" />
     <ClInclude Include="15_maxEdgeOfTriangle.h" />
     <ClInclude Include="17_CheckSum.h" />
+    <ClInclude Include="18_Polygon.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

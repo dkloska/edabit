@@ -17,6 +17,7 @@
 #include"..\github_edabit\15_maxEdgeOfTriangle.cpp"
 #include"..\github_edabit\16_IsSame.cpp"
 #include"..\github_edabit\17_CheckSum.cpp"
+#include"..\github_edabit\18_Polygon.cpp"
 
 TEST(Test0, TestReturnTrue) {
 	ReturnTrue rt;
@@ -173,3 +174,11 @@ TEST(test17, lessThan100) {
 	EXPECT_EQ(true, number1.lessThan100(21, 37));
 }
 
+TEST(test18, sumPolygon) {
+	Polygon object;
+	for (int y = 3; y <= 1000; ++y) {
+		int expected_sum = (y - 2) * 180;
+		std::string x = "EXPECT_EQ(object.sumPolygon(" + std::to_string(y) + "), " + std::to_string(expected_sum) + ");";
+		EXPECT_EQ(object.sumPolygon(y), expected_sum) << x;
+	}
+}
