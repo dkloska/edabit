@@ -18,6 +18,7 @@
 #include"..\github_edabit\16_IsSame.cpp"
 #include"..\github_edabit\17_CheckSum.cpp"
 #include"..\github_edabit\18_Polygon.cpp"
+#include"..\github_edabit\19_Concatenation.cpp"
 
 TEST(Test0, TestReturnTrue) {
 	ReturnTrue rt;
@@ -181,4 +182,12 @@ TEST(test18, sumPolygon) {
 		std::string x = "EXPECT_EQ(object.sumPolygon(" + std::to_string(y) + "), " + std::to_string(expected_sum) + ");";
 		EXPECT_EQ(object.sumPolygon(y), expected_sum) << x;
 	}
+}
+
+TEST(test19, nameString) {
+	Concatenation output;
+	EXPECT_EQ("MubashirEdabit", output.nameString("Mubashir"));
+	EXPECT_EQ("MattEdabit", output.nameString("Matt"));
+	EXPECT_EQ("C++Edabit", output.nameString("C++"));
+	EXPECT_EQ("AirforceEdabit", output.nameString("Airforce"));
 }

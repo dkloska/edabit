@@ -156,6 +156,7 @@
     <ClCompile Include="8_HowManySeconds.cpp" />
     <ClCompile Include="9_MinutesToSeconds.cpp" />
     <ClCompile Include="17_CheckSum.cpp" />
+    <ClCompile Include="19_Concatenation.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="15_maxEdgeOfTriangle.cpp" />
     <ClCompile Include="18_Polygon.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="15_maxEdgeOfTriangle.h" />
     <ClInclude Include="17_CheckSum.h" />
     <ClInclude Include="18_Polygon.h" />
+    <ClInclude Include="19_Concatenation.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
