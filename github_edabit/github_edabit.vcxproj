@@ -160,6 +160,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="15_maxEdgeOfTriangle.cpp" />
     <ClCompile Include="18_Polygon.cpp" />
+    <ClCompile Include="20_Redundancy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="0_ReturnTrue.h" />
@@ -182,6 +183,7 @@
     <ClInclude Include="17_CheckSum.h" />
     <ClInclude Include="18_Polygon.h" />
     <ClInclude Include="19_Concatenation.h" />
+    <ClInclude Include="20_Redundancy.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

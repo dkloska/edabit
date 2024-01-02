@@ -19,6 +19,7 @@
 #include"..\github_edabit\17_CheckSum.cpp"
 #include"..\github_edabit\18_Polygon.cpp"
 #include"..\github_edabit\19_Concatenation.cpp"
+#include"..\github_edabit\20_Redundancy.cpp"
 
 TEST(Test0, TestReturnTrue) {
 	ReturnTrue rt;
@@ -190,4 +191,16 @@ TEST(test19, nameString) {
 	EXPECT_EQ("MattEdabit", output.nameString("Matt"));
 	EXPECT_EQ("C++Edabit", output.nameString("C++"));
 	EXPECT_EQ("AirforceEdabit", output.nameString("Airforce"));
+}
+
+TEST(test20, isEven) {
+	Redundancy output;
+	EXPECT_EQ(true, output.isEven(2));
+	EXPECT_EQ(false, output.isEven(3));
+	EXPECT_EQ(true, output.isEven(10));
+	EXPECT_EQ(false, output.isEven(31));
+	EXPECT_EQ(true, output.isEven(666));
+	EXPECT_EQ(false, output.isEven(777));
+	EXPECT_EQ(true, output.isEven(3482034));
+	EXPECT_EQ(false, output.isEven(3482035));
 }
